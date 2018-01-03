@@ -25,7 +25,6 @@ nav {
     width: 100%;
     font-size: 1rem;
     text-align: center;
-    /*background-color: rgb(37, 37, 37);*/
 }
 
 ul {
@@ -45,10 +44,12 @@ li a {
     text-decoration: none;
     color: inherit;
 }
+a {
+    color:inherit;
+}
 
-li a:hover {
+a:hover {
     color: gray;
-    /*background-color: rgb(37, 37, 37);*/
 }
 
 header {
@@ -76,6 +77,25 @@ header {
     min-height: 500px;
 }
 
+footer {
+    padding: 30px;
+    text-align: center;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px #000 solid;
+    margin: 0 auto;
+    padding: 0;
+    width: 30%;
+}
+
+#description {
+    margin-top: 1.8em;
+}
+
 .center-text {
     position: absolute;
     top: 40%;
@@ -86,10 +106,6 @@ header {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-
-h1 {
-    font-size: 35px !important;
 }
 
 .box {
@@ -115,5 +131,18 @@ h1 {
 
     nav {
         top: 60%;
+    }
+
+    hr {
+        width: 50%;
+    }
+
+    .center-text {
+        font-size: 20px;
+        letter-spacing: 8px;
+    }
+
+    h1 {
+        font-size: 20px;
     }
 }
