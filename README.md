@@ -1,6 +1,6 @@
-# Free Code Camp front-end projects
+# Front-end projects repository
 
-My Free Code Camp front-end projects
+A collection of my front-end projects, mostly are built as practice for my [study curriculum](https://github.com/jesuodz/speedstudy)
 
 - [Paria Tribute Page](paria-tribute-page)
 - [Style Conference](style-conference)
